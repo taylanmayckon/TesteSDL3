@@ -64,6 +64,7 @@ Uma maneira alternativa seria compilar por fora do VS Code, utilizando o Prompt 
 cmake -S . -B build -G "MinGW Makefiles"
 cmake --build build
 ```
+Nota: O primeiro comando só precisa ser executado uma vez, após isso para compilar novamente o programa só o segundo precisa ser executado.
 
 Para executar o projeto, basta executar:
 ```sh
